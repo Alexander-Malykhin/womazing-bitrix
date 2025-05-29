@@ -1,0 +1,45 @@
+.header__buttons {
+    width: max-content;
+    display: flex;
+    gap: 1rem;
+}
+
+.phone {
+    display: flex;
+    gap: 0.7rem;
+    align-items: center;
+}
+
+.phone__button {
+    width: 27px;
+    height: 27px;
+    background-image: url("/local/templates/womazing/images/header/phone.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: 0.3s ease-in-out;
+}
+
+.phone__button:hover {
+    background-color: var(--main);
+    background-image: url("/local/templates/womazing/images/header/phone-active.png");
+}
+
+.phone__text {
+    color: var(--black);
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 992px) {
+    .phone__text {
+        color: var(--black);
+        font-size: 0.7rem;
+        font-weight: 400;
+    }
+
+    .phone {
+        display: flex;
+        align-items: center;
+    }
+}
+

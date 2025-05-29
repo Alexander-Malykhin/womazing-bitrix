@@ -1,0 +1,14 @@
+<svg width="21.000000" height="21.000000" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip2_236">
+			<rect id="facebook (1) 1" rx="0.000000" width="20.000000" height="20.000000" transform="translate(0.500000 0.500000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="facebook (1) 1" rx="0.000000" width="20.000000" height="20.000000" transform="translate(0.500000 0.500000)" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip2_236)">
+		<path id="Vector" d="M18.53 0L2.46 0C1.1 0 0 1.1 0 2.46L0 18.53C0 19.89 1.1 21 2.46 21L18.53 21C19.89 21 21 19.89 21 18.53L21 2.46C21 1.1 19.89 0 18.53 0ZM19.35 18.53C19.35 18.99 18.99 19.35 18.53 19.35L13.69 19.35L13.69 13.37L16.32 13.37L16.63 10.82L13.69 10.82L13.69 8.08C13.69 7.37 14.22 6.84 14.92 6.84L16.77 6.84L16.77 4.47C16.28 4.4 15.35 4.3 14.92 4.3C13.97 4.3 13.01 4.71 12.29 5.41C11.56 6.13 11.15 7.08 11.15 8.08L11.15 10.82L8.49 10.82L8.49 13.37L11.15 13.37L11.15 19.35L2.46 19.35C2 19.35 1.64 18.99 1.64 18.53L1.64 2.46C1.64 2 2 1.64 2.46 1.64L18.53 1.64C18.99 1.64 19.35 2 19.35 2.46L19.35 18.53Z" fill="#000000" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+</svg>

@@ -1,0 +1,20 @@
+.burger {
+    display: none;
+}
+
+@media only screen and (max-width: 780px) {
+    .burger {
+        grid-area: burger;
+        display: flex;
+        flex-direction: column;
+        gap: 0.3rem;
+        cursor: pointer;
+    }
+
+    .burger__line {
+        width: 1.2rem;
+        height: 0.15rem;
+        background-color: var(--black);
+    }
+}
+

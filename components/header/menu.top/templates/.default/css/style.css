@@ -1,0 +1,27 @@
+.navigation {
+    grid-area: navigation;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation__item {
+    color: var(--black);
+    font-weight: 400;
+}
+
+.navigation__span {
+    font-size: 0.9rem;
+}
+
+.item-active {
+    color: var(--main);
+    font-weight: bold;
+}
+
+
+@media only screen and (max-width: 780px) {
+    .navigation {
+        display: none;
+    }
+}
