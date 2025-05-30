@@ -1,0 +1,59 @@
+.mobile__menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    display: none;
+    grid-template-columns: 40% auto;
+}
+
+.mobile__navigation {
+    background: var(--white);
+    padding: 20px;
+    overflow-y: auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.mobile__navigation-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.mobile__background {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.mobile__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.mobile__button-line:first-child {
+    position: absolute;
+    height: 0.1rem;
+    width: 100%;
+    background-color: var(--black);
+    transform: rotate(45deg);
+}
+
+.mobile__button-line:last-child {
+    position: absolute;
+    height: 0.1rem;
+    width: 100%;
+    background-color: var(--black);
+    transform: rotate(-45deg);
+}
+
+.mobile-active {
+    display: grid;
+}
