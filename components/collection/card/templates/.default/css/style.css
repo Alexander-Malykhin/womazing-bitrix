@@ -1,0 +1,64 @@
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.card__container-image {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    position: relative;
+}
+
+.card__container-image::before {
+    content: url("/local/templates/womazing/images/card/arrow.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    z-index: 99;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    transform: scale(0.8);
+}
+
+.card__container-image:hover::before {
+    opacity: 1;
+    transform: scale(1);
+    background: rgba(110, 156, 159, 0.3);
+}
+
+.card__image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+.card__information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.card__information-name {
+    font-size: 1.2rem;
+    color: var(--black);
+    font-weight: 500;
+}
+
+.card__price {
+    color: var(--price);
+    font-size: 0.9rem;
+}
